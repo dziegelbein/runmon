@@ -1,0 +1,25 @@
+{
+  "name": "runmon",
+  "version": "0.1.0",
+  "description": "Run a script and take further actions based on that script's output.",
+  "main": "index.js",
+  "bin": {
+    "runmon": "bin/runmon"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tsc",
+    "watch",
+    "stdout",
+    "script",
+    "run"
+  ],
+  "author": "Dan Ziegelbein",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dziegelbein/runmon.git"
+  }
+}
