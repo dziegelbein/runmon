@@ -1,13 +1,13 @@
 {
   "name": "runmon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Run a script and take further actions based on that script's output.",
   "main": "index.js",
   "bin": {
-    "runmon": "bin/runmon"
+    "runmon": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "tsc",
@@ -21,5 +21,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dziegelbein/runmon.git"
-  }
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "mocha": "^6.0.2"
+  },
+  "dependencies": {}
 }
