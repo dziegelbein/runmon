@@ -41,6 +41,9 @@ In your package.json scripts section:
 
 ## Release History
 
+* 0.2.1
+    * Fixed issue with premature termination of the primary task. Minor refactoring to address cross-platform
+    testing issues.
 * 0.2.0
     * Changed --startup-match-timeout option to be of the form option=value. Added tests to the module. Other minor
     refactorings.

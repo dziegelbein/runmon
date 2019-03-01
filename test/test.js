@@ -86,7 +86,7 @@ describe(`runmon should error when...`, function() {
 describe(`runmon should succeed when...`, function() {
     let shortRunCommand=`node -e \\"console.log('cmdout')\\"`;
     let multiOutCommand=`node -e \\"console.log('cmdout\\ncmdout')\\"`;
-    let longRunCommand=`node -e \\"setTimeout(()=>{console.log('cmdout')}, 1000)\\"`;
+    let longRunCommand=`node -e \\"setTimeout(function(){console.log('cmdout')}, 1000)\\"`;
     let patternNoMatch=`no match`;
     let patternMatch=`cmdout`;
     let task1=`node -e \\"console.log('task1')\\"`

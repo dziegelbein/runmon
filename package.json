@@ -1,6 +1,6 @@
 {
   "name": "runmon",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Run a script and take further actions based on that script's output.",
   "main": "index.js",
   "bin": {
@@ -10,11 +10,7 @@
     "test": "mocha"
   },
   "keywords": [
-    "tsc",
-    "watch",
-    "stdout",
-    "script",
-    "run"
+    "run", "npm", "script", "task", "watch", "stdout", "typescript", "tsc"
   ],
   "author": "Dan Ziegelbein",
   "license": "ISC",

@@ -60,10 +60,6 @@ function processCmdLine(args) {
 function runMasterTask(runConfig) {
     let masterTask = shell.spawn(runConfig.cmd, {shell: true});
 
-    masterTask.on('close', code => {
-        process.exit(code);
-    });
-
     // Process the master task's output line by line.
     let rl = readline.createInterface({
         input: masterTask.stdout
@@ -122,6 +118,4 @@ function signalTasks(tasks, signal) {
     }
 }
 
-//module.exports = () => {
 main(process.argv.slice(2));
-//}
