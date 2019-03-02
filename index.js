@@ -3,7 +3,7 @@
 /*
 The following is a quick hack to implement a Node.js CLI tool that allows for starting one or more tasks based on the
 output of another task.
- */
+*/
 
 const shell = require('child_process');
 const readline = require('readline');
